@@ -53,6 +53,14 @@ The DeepLOB architecture:
 
 ---
 
+
+## Results Presentation
+The enhanced DeepLOB model trained on real market data and the results are avaiable in the presentation attached above
+[Presentaion](https://github.com/jk-karthik/HFT-Alphas/blob/main/Presentation.pptx)
+
+---
+
+
 ## Reference
 Zhang, Z., Zohren, S., & Roberts, S. (2019). *Deep Learning for Limit Order Books*.  
 [arXiv:1808.03668](https://arxiv.org/abs/1808.03668)
