@@ -39,9 +39,21 @@ DeepLOB is a deep learning architecture designed to predict price movements dire
 
 ---
 
-## Dataset
-- **Source:** High-frequency LOB data (e.g., Nasdaq ITCH feed).
-- **Usage:** Model validated using real-time tick-level data.
+## Datasets
+Two datasets were used for model training and evaluation:
+
+1. **FI-2010 Dataset**  
+   - Public benchmark dataset containing simulated high-frequency limit order book data.
+   - Widely used in academic research for evaluating LOB prediction models.
+
+2. **Real Market Dataset**  
+   - Proprietary dataset from real financial markets, including full-depth order book records.
+   - Captures realistic market microstructure patterns and noise.
+
+**Training & Evaluation Approach:**
+- Separate models were trained **individually** on each dataset.
+- Models were **evaluated on the respective dataset** they were trained on.
+- This approach ensures dataset-specific performance metrics without cross-domain leakage.
 
 ---
 
@@ -56,7 +68,7 @@ The DeepLOB architecture:
 
 ## Results Presentation
 The enhanced DeepLOB model trained on real market data and the results are avaiable in the presentation attached above
-[Presentaion](https://github.com/jk-karthik/HFT-Alphas/blob/main/Presentation.pptx)
+[Presentaion](Presentation.pptx)
 
 ---
 
