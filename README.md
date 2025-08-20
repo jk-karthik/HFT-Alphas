@@ -68,7 +68,7 @@ The DeepLOB architecture:
 
 ## Results Presentation
 The enhanced DeepLOB model trained on real market data and the results are avaiable in the presentation attached above
-[Presentaion](Presentation.pptx)
+[Presentation](Presentation.pptx)
 
 ---
 
